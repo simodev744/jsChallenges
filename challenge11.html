@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge11</title>
+</head>
+<body>
+
+     <style>
+
+      .classe1{
+        
+         background-color:blue;
+         color: white;
+         width: 140px;
+         padding:20px;
+
+
+      }
+
+
+     
+
+
+     </style>
+
+    
+    <div id="cont">
+        Hello JS coders
+    </div>
+
+
+
+    <script>
+    
+     document.getElementById('cont').addEventListener('mouseover',()=>{
+
+        document.getElementById('cont').classList.add('classe1')
+
+
+     })
+
+
+     document.getElementById('cont').addEventListener('mouseout',()=>{
+
+        document.getElementById('cont').classList.remove('classe1')
+        
+    })
+
+
+
+    </script>
+
+
+    
+</body>
+</html>

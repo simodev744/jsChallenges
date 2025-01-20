@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge15</title>
+</head>
+<body>
+
+
+    <button id="btn" onclick="scro()">scroll to Element</button>
+
+
+    <div  style="background-color: aquamarine;height:3000px;">
+      
+    </div>
+
+    <div id="element" style="background-color:rgb(138, 185, 62);height:200px;">I m here</div>
+
+
+
+
+    <script>
+
+
+        
+   
+
+        function scro(){
+           const el=document.getElementById('element');
+
+           el.scrollIntoView({behavior:'smooth'})
+
+        }
+
+
+
+
+
+
+
+    </script>
+
+
+    
+</body>
+</html>
+
