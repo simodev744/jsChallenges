@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify style</title>
+</head>
+<body>
+
+    <button id="button">Click to change color</button>
+
+
+    <script>
+
+        document.getElementById('button').addEventListener('click', function(){
+            document.getElementById('button').style.backgroundColor = 'blue';
+            document.getElementById('button').style.color = 'white';
+        });
+
+    </script>
+    
+</body>
+</html>

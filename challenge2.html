@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <ul id="list">
+
+    </ul>
+
+
+
+    <script>
+
+   const list =  document.getElementById("list");
+
+   const listItems=["Apple","orange","banana"];
+
+   listItems.forEach(item => {
+    const listItem = document.createElement("li");
+    listItem.textContent = item;
+    list.appendChild(listItem);
+   });
+
+    </script>
+
+
+
+
+
+    
+</body>
+</html>

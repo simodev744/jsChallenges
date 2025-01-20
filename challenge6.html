@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge 6</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <button id="toggleBtn">show and hide</button>
+  <div id="toggleDiv">This is a div</div>
+
+  <script>
+    document.getElementById('toggleBtn').addEventListener('click', () => {
+      document.getElementById('toggleDiv').classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
